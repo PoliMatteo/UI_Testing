@@ -1,14 +1,15 @@
 # POPUPS AND OTHER ICONS
- This Package contains the required assets to have a functioning PopUp system. 
+ This Package contains the required assets to have a functioning PopUp system.
+ TextMeshPro is required to be in the project
 ## INSTALLATION NOTES
 Download the *WarningPopUps.unitypackage* file and open it into any Unity project.
 
 The unity project this package is imported into needs two different Canvas to work.
-The first one is the UI Canvas, which will  be called **Screen Space Canvas** from now on. Make sure the render mode for it is set to Screen Space. **You will also need to tag it as "CSS".**
+The first one is the UI Canvas, which will  be called **Screen Space Canvas** from now on. Make sure the render mode for it is set to Screen Space - Overlay. **You will also need to tag it as "CSS".**
 
 ![alt text](https://github.com/PoliMatteo/UI_Testing/blob/main/screenshots/Canvas%20SS.png)
 
-The second canvas is placed inside the world, and will be then called **World Space Canvas**. The render mode for this one needs to be set to World Space. **You will also need to tag it as "CWS".**
+The second canvas is placed inside the world, and will be then called **World Space Canvas**. The render mode for this one needs to be set to Screen Space - World. **You will also need to tag it as "CWS".**
 
 ![alt text](https://github.com/PoliMatteo/UI_Testing/blob/main/screenshots/Canvas%20WS.png)
 
