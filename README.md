@@ -1,7 +1,7 @@
 # POPUPS AND OTHER ICONS
  This Package contains the required assets to have a functioning PopUp system. 
 ## INSTALLATION NOTES
-The unity project this package is imported into needs two different Canvas to work
+The unity project this package is imported into needs two different Canvas to work.
 The first one is the UI Canvas, which will  be called **Screen Space Canvas** from now on. Make sure the render mode for it is set to Screen Space. **You will also need to tag it as "CSS".**
 
 ![alt text](https://github.com/PoliMatteo/UI_Testing/blob/main/screenshots/Canvas%20SS.png)
