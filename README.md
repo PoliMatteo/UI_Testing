@@ -9,7 +9,7 @@ The first one is the UI Canvas, which will  be called **Screen Space Canvas** fr
 
 ![alt text](https://github.com/PoliMatteo/UI_Testing/blob/main/screenshots/Canvas%20SS.png)
 
-The second canvas is placed inside the world, and will be then called **World Space Canvas**. The render mode for this one needs to be set to Screen Space - World. **You will also need to tag it as "CWS".**
+The second canvas is placed inside the world, and will be then called **World Space Canvas**. The render mode for this one needs to be set to World Space. **You will also need to tag it as "CWS".**
 
 ![alt text](https://github.com/PoliMatteo/UI_Testing/blob/main/screenshots/Canvas%20WS.png)
 
