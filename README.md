@@ -47,7 +47,7 @@ This static class checks the prefab's partial or complete visibility
 |   **IsFullyVisibleFrom**   |   bool   |   RectTransform rectTransform, Camera camera   |   Checks if the given *rectTransform* corners and center are visible from the camera and returns true only if all of them are   |
 |   **IsVisibleFrom**   |   bool   |   RectTransform rectTransform, Camera camera   |   Checks if the given *rectTransform* corners or center are visible from the camera and returns true if at least one is   |
 
-#### POPUP INSTANCE
+#### PopUpInstance
 Implements the IPopUp interface.
 Manages the behaviour of the prefab. Allows Title and Description to be changed, as well as Canvas.
 
@@ -72,7 +72,7 @@ Manages the behaviour of the prefab. Allows Title and Description to be changed,
 |   **SetTitle**   |   void   |   string title   |   changes the title of the message   |
 |   **SetDescription**   |   void   |   string Description   |   changes the description of the message   |
 
-#### POPUP MANAGER
+#### PopUpManager
 this static class keeps track and manages all alert icons and message popUps
 
 |   Properties   |   Type   |         |
